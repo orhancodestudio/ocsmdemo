@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "e893e8c2-cf24-4840-9187-6b9c45e447d2",
+      "username": "admin",
+      "name": "Orhan Ali Enuştekin",
+      "role": "admin",
+      "passwordHash": "8bd67882e1c5eee5cd7ae9edb23e82df:46a6099080a067b3801cb009509fd7db54d272c0d5b6c82ab9eca173db1427e6b8fdb3ef6125b08119fea92039b6e156d35256cc5d535b1f3d3ad0f8e5f3abd5",
+      "createdAt": "2026-06-19T23:12:27.095Z"
+    },
+    {
+      "id": "95f68d94-c93d-4fc4-b5c3-7337e7474412",
+      "username": "editor",
+      "name": "İçerik Editörü",
+      "role": "editor",
+      "passwordHash": "a2e0ed9db9c3f4ce0ab38d72c553fb90:3cde6cd374c5c5ffa582fa687dcc0f3c216135be3aa48c94455b0b4cb7d6f7b961f297f3edb53a43a5abb488c6bd032b49304228884bef5666ad80061a6829d4",
+      "createdAt": "2026-06-19T23:12:27.095Z"
+    }
+  ]
+}

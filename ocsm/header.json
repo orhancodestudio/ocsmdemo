@@ -1,0 +1,42 @@
+{
+  "blocks": [
+    {
+      "id": "5219a92b-ffcb-4379-959b-5cbc281a0fa2",
+      "type": "navbar",
+      "logoText": "ACME",
+      "logoImageUrl": "",
+      "logoHref": "/",
+      "logoAlign": "left",
+      "links": [
+        {
+          "label": "Anasayfa",
+          "url": "/"
+        },
+        {
+          "label": "Hizmetler",
+          "url": "/p/hizmetler"
+        },
+        {
+          "label": "İletişim",
+          "url": "/p/iletisim"
+        }
+      ],
+      "linksAlign": "center",
+      "sticky": false,
+      "style": {
+        "bgType": "solid",
+        "background": "#ffffff",
+        "gradientFrom": "#7c3aed",
+        "gradientTo": "#2563eb",
+        "gradientAngle": "135",
+        "textColor": "#0f172a",
+        "textAlign": "left",
+        "fontFamily": "",
+        "fontSize": "",
+        "fontWeight": "",
+        "paddingY": "16",
+        "maxWidth": "1080"
+      }
+    }
+  ]
+}

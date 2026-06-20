@@ -1,0 +1,23 @@
+{
+  "blocks": [
+    {
+      "id": "a0a152f6-916e-4acb-92c5-3d61035d626c",
+      "type": "richText",
+      "markdown": "**ACME Kurumsal A.Ş.**\n\nMaslak Mah. Teknoloji Cad. No:1, Sarıyer / İstanbul\n\ninfo@acme.com.tr · +90 (212) 000 00 00\n\n[Anasayfa](/) · [Hizmetler](/p/hizmetler) · [Hakkımızda](/p/hakkimizda) · [İletişim](/p/iletisim)\n\n© 2026 ACME Kurumsal — Orhan Code Studio tarafından OCS Management ile geliştirildi.",
+      "style": {
+        "bgType": "solid",
+        "background": "#0b1220",
+        "gradientFrom": "#7c3aed",
+        "gradientTo": "#2563eb",
+        "gradientAngle": "135",
+        "textColor": "#94a3b8",
+        "textAlign": "center",
+        "fontFamily": "",
+        "fontSize": "14",
+        "fontWeight": "",
+        "paddingY": "44",
+        "maxWidth": "820"
+      }
+    }
+  ]
+}
