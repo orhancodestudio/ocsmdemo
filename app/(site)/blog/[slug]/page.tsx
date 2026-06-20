@@ -7,13 +7,21 @@ import {
 } from "@orhancodestudio/ocsm-core/server";
 import { ocsm } from "@/lib/ocsm";
 
+// Build the public blog statically from the committed files (no GitHub at build).
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const posts = await ocsm.public.listDocuments("posts");
+  return posts.map((post) => ({ slug: post.slug }));
+}
+
 export default async function PostPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = await ocsm.getDocument("posts", slug);
+  const post = await ocsm.public.getDocument("posts", slug);
   if (!post) notFound();
 
   const blocks = normalizeBlocks(post.frontmatter.blocks);

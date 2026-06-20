@@ -13,7 +13,7 @@ export default async function RootLayout({
 }: {
   children: ReactNode;
 }) {
-  const theme = await ocsm.theme.get();
+  const theme = await ocsm.public.getTheme();
 
   return (
     <html lang="tr">

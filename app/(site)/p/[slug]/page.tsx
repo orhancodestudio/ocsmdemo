@@ -7,13 +7,21 @@ import {
 } from "@orhancodestudio/ocsm-core/server";
 import { ocsm } from "@/lib/ocsm";
 
+// Build public pages statically from the committed files (no GitHub at build).
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const pages = await ocsm.public.listDocuments("pages");
+  return pages.map((page) => ({ slug: page.slug }));
+}
+
 export default async function CmsPage({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const page = await ocsm.getDocument("pages", slug);
+  const page = await ocsm.public.getDocument("pages", slug);
   if (!page) notFound();
 
   const blocks = normalizeBlocks(page.frontmatter.blocks);

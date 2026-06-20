@@ -2,7 +2,7 @@ import { BlockRenderer, normalizeBlocks } from "@orhancodestudio/ocsm-core/serve
 import { ocsm } from "@/lib/ocsm";
 
 export default async function HomePage() {
-  const home = await ocsm.getDocument("pages", "home");
+  const home = await ocsm.public.getDocument("pages", "home");
   const blocks = home ? normalizeBlocks(home.frontmatter.blocks) : [];
 
   if (blocks.length === 0) {

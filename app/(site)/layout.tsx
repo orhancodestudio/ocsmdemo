@@ -13,8 +13,8 @@ export default async function SiteLayout({
   children: ReactNode;
 }) {
   const [header, footer] = await Promise.all([
-    ocsm.layout.get("header"),
-    ocsm.layout.get("footer"),
+    ocsm.public.getLayout("header"),
+    ocsm.public.getLayout("footer"),
   ]);
 
   return (
