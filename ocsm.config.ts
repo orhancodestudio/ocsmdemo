@@ -2,8 +2,8 @@ import { defineOcsmConfig } from "@orhancodestudio/ocsm-core/config";
 
 export default defineOcsmConfig({
   brand: {
-    name: "ACME Kurumsal",
-    description: "Dijital dönüşüm ve yazılım çözümleri",
+    name: "Orka Güvenlik",
+    description: "Ev ve işyeri güvenlik sistemleri · 7/24 izleme",
   },
   contentRoot: "content",
   collections: [

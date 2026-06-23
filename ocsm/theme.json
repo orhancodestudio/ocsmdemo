@@ -1,0 +1,12 @@
+{
+  "primaryColor": "#0e2a47",
+  "accentColor": "#f5a524",
+  "backgroundColor": "#ffffff",
+  "surfaceColor": "#f3f6fa",
+  "textColor": "#16263a",
+  "mutedColor": "#5b6b7f",
+  "fontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+  "headingFontFamily": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+  "radius": "8px",
+  "maxWidth": "1080px"
+}

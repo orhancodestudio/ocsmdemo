@@ -4,8 +4,9 @@ import { themeToCssString } from "@orhancodestudio/ocsm-core/server";
 import { ocsm } from "@/lib/ocsm";
 
 export const metadata: Metadata = {
-  title: "OCS Management Demo",
-  description: "git-based CMS by Orhan Code Studio",
+  title: "Orka Güvenlik — Ev ve İşyeri Güvenlik Sistemleri",
+  description:
+    "Alarm sistemleri, akıllı kameralar ve 7/24 izleme merkeziyle eviniz güvende. Ücretsiz keşif için bize ulaşın.",
 };
 
 export default async function RootLayout({

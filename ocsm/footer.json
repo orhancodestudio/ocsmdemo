@@ -1,22 +1,22 @@
 {
   "blocks": [
     {
-      "id": "a0a152f6-916e-4acb-92c5-3d61035d626c",
+      "id": "658c6aa4-c2b8-473a-99af-61f4b728a23a",
       "type": "richText",
-      "markdown": "**ACME Kurumsal A.Ş.**\n\nMaslak Mah. Teknoloji Cad. No:1, Sarıyer / İstanbul\n\ninfo@acme.com.tr · +90 (212) 000 00 00\n\n[Anasayfa](/) · [Hizmetler](/p/hizmetler) · [Hakkımızda](/p/hakkimizda) · [İletişim](/p/iletisim)\n\n© 2026 ACME Kurumsal — Orhan Code Studio tarafından OCS Management ile geliştirildi.",
+      "markdown": "**Orka Güvenlik**\n\n7/24 izleme merkezi ve lisanslı uzman ekibimizle eviniz her an güvende.\n\nAtatürk Mah. Güvenlik Cad. No:12, Kadıköy / İstanbul · 0850 000 00 00 · info@orkaguvenlik.com\n\n[Anasayfa](/) · [Hizmetler](/p/hizmetler) · [Hakkımızda](/p/hakkimizda) · [S.S.S.](/p/sss) · [İletişim](/p/iletisim)\n\n© 2026 Orka Güvenlik. Tüm hakları saklıdır.",
       "style": {
         "bgType": "solid",
-        "background": "#0b1220",
+        "background": "#f3f6fa",
         "gradientFrom": "#7c3aed",
         "gradientTo": "#2563eb",
         "gradientAngle": "135",
-        "textColor": "#94a3b8",
+        "textColor": "#16263a",
         "textAlign": "center",
         "fontFamily": "",
         "fontSize": "14",
         "fontWeight": "",
-        "paddingY": "44",
-        "maxWidth": "820"
+        "paddingY": "48",
+        "maxWidth": "920"
       }
     }
   ]
