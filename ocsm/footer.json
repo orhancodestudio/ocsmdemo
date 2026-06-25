@@ -1,22 +1,48 @@
 {
   "blocks": [
     {
-      "id": "658c6aa4-c2b8-473a-99af-61f4b728a23a",
-      "type": "richText",
-      "markdown": "**Orka Güvenlik**\n\n7/24 izleme merkezi ve lisanslı uzman ekibimizle eviniz her an güvende.\n\nAtatürk Mah. Güvenlik Cad. No:12, Kadıköy / İstanbul · 0850 000 00 00 · info@orkaguvenlik.com\n\n[Anasayfa](/) · [Hizmetler](/p/hizmetler) · [Hakkımızda](/p/hakkimizda) · [S.S.S.](/p/sss) · [İletişim](/p/iletisim)\n\n© 2026 Orka Güvenlik. Tüm hakları saklıdır.",
+      "id": "0a0edf39-15bf-4812-acf9-eff50f98a9b4",
+      "type": "footerbar",
+      "brandText": "ORKA GÜVENLİK",
+      "aboutText": "7/24 izleme merkezi ve lisanslı uzman ekibimizle eviniz her an güvende.",
+      "columns": [
+        {
+          "title": "Kurumsal",
+          "links": [
+            {
+              "label": "Hakkımızda",
+              "url": "/p/hakkimizda"
+            },
+            {
+              "label": "İletişim",
+              "url": "/p/iletisim"
+            }
+          ]
+        },
+        {
+          "title": "Hizmetler",
+          "links": [
+            {
+              "label": "Hizmetler",
+              "url": "/p/hizmetler"
+            }
+          ]
+        }
+      ],
+      "copyright": "© 2026 Orka Güvenlik. Tüm hakları saklıdır.",
       "style": {
         "bgType": "solid",
-        "background": "#f3f6fa",
+        "background": "#ffffff",
         "gradientFrom": "#7c3aed",
         "gradientTo": "#2563eb",
         "gradientAngle": "135",
-        "textColor": "#16263a",
-        "textAlign": "center",
+        "textColor": "#000000",
+        "textAlign": "left",
         "fontFamily": "",
-        "fontSize": "14",
+        "fontSize": "",
         "fontWeight": "",
         "paddingY": "48",
-        "maxWidth": "920"
+        "maxWidth": "1080"
       }
     }
   ]
